@@ -1,0 +1,26 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "I'm creating a web app that lets users view and leave comments on the latest news. But I'm not going to actually write any articles; instead, I'll flex my Mongoose and Cheerio muscles to scrape news from another site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogelfuentes/mongoDB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogelfuentes/mongoDB/issues"
+  },
+  "homepage": "https://github.com/rogelfuentes/mongoDB#readme",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mongoose": "^5.8.7"
+  }
+}
